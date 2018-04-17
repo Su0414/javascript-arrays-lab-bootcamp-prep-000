@@ -15,4 +15,11 @@ function destructivelyPrependKitten(name){
 }
 
 
+function destructivelyRemoveLastKitten(){
+  var newArr = kittens;
+  newArr.pop();
+  return newArr;
+}
+
+
 
