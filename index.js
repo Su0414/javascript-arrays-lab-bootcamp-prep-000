@@ -8,5 +8,11 @@ function destructivelyAppendKitten(name){
   return newArr;
 }
 
+function destructivelyPrependKitten(name){
+  var newArr = kittens;
+  newArr.unshift(name);
+  return newArr;
+}
+
 
 
